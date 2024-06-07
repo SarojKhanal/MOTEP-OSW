@@ -1,0 +1,8 @@
+site_id,longitude,latitude,State,County,fraction_of_usable_area,power_curve,capacity,wind_speed,capacity_factor,full_timeseries_directory,full_timeseries_path
+93857,-70.204926,40.934956,Unknown,Unknown,1,offshore,16,9.35,0.474,187,187/93857.nc
+94658,-70.977417,41.184898,Unknown,Unknown,1,offshore,16,9.18,0.465,189,189/94658.nc
+94658,-70.977417,41.184898,Unknown,Unknown,1,offshore,16,9.18,0.465,189,189/94658.nc
+94663,-70.836609,41.150539,Unknown,Unknown,1,offshore,16,9.21,0.466,189,189/94663.nc
+94663,-70.836609,41.150539,Unknown,Unknown,1,offshore,16,9.21,0.466,189,189/94663.nc
+96008,-70.610657,41.192684,Unknown,Unknown,1,offshore,16,9.19,0.463,192,192/96008.nc
+96008,-70.610657,41.192684,Unknown,Unknown,1,offshore,16,9.19,0.463,192,192/96008.nc

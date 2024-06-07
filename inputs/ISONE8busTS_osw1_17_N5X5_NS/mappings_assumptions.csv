@@ -1,0 +1,12 @@
+zone_node,number,,pu_parameters,pu_bases,pu_units
+ME,1,,Sbase,1,MVA
+NH,2,,Vbase,345,kV
+VT,3,,Zbase,119025,ohm
+WCMASS,4,,,,
+WCMA,4,,,,
+NEMA,5,,,,
+NEMA/BOST,5,,,,
+CT,6,,,,
+RI,7,,,,
+SEMASS,8,,,,
+SEMA,8,,,,

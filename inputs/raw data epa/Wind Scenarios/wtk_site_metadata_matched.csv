@@ -1,0 +1,9 @@
+site_id,longitude,latitude,State,County,fraction_of_usable_area,power_curve,capacity,wind_speed,capacity_factor,full_timeseries_directory,full_timeseries_path
+43111,-75.268311,36.93502,Unknown,Unknown,1,offshore,16,8.61,0.418,86,86/43111.nc
+50971,-74.777039,38.24427,Unknown,Unknown,1,offshore,16,8.71,0.423,101,101/50971.nc
+51892,-74.768921,38.33828,Unknown,Unknown,1,offshore,16,8.69,0.422,103,103/51892.nc
+55106,-74.709137,38.651264,Unknown,Unknown,1,offshore,16,8.67,0.422,110,110/55106.nc
+55106,-74.709137,38.651264,Unknown,Unknown,1,offshore,16,8.67,0.422,110,110/55106.nc
+60466,-74.41449,39.06797,Unknown,Unknown,1,offshore,16,8.68,0.421,120,120/60466.nc
+61111,-74.303467,39.101707,Unknown,Unknown,1,offshore,16,8.73,0.426,122,122/61111.nc
+62537,-74.196075,39.19381,Unknown,Unknown,1,offshore,16,8.73,0.427,125,125/62537.nc

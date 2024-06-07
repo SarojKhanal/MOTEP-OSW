@@ -1,0 +1,41 @@
+Scenario,Cost Components,Cost ($),Percentage Difference (%) (Cost ($))
+MO,Demand Flexibility,0.0,-100.0
+MO,Generator O&M,210674529403.0751,-19.520507080861087
+MO,Over Generation Penalty,0.0,0.0
+MO,RPS Noncompliance,0.0,0.0
+MO,Under Generation Penalty,0.0,0.0
+MO EM190,Demand Flexibility,0.0,-100.0
+MO EM190,Generator O&M,188637825452.9129,-27.938718644182387
+MO EM190,Over Generation Penalty,0.0,0.0
+MO EM190,RPS Noncompliance,0.0,0.0
+MO EM190,Under Generation Penalty,0.0,0.0
+MO EM190 X5,Demand Flexibility,83135850.90297204,-79.53089300388662
+MO EM190 X5,Generator O&M,186548652273.84488,-28.736800873429818
+MO EM190 X5,Over Generation Penalty,0.0,0.0
+MO EM190 X5,RPS Noncompliance,0.0,0.0
+MO EM190 X5,Under Generation Penalty,0.0,0.0
+MO OPOI,Demand Flexibility,0.0,-100.0
+MO OPOI,Generator O&M,209264056412.55066,-20.05931996619269
+MO OPOI,Over Generation Penalty,0.0,0.0
+MO OPOI,RPS Noncompliance,0.0,0.0
+MO OPOI,Under Generation Penalty,0.0,0.0
+MO OPOI X5,Demand Flexibility,117475234.46873,-71.07609872736653
+MO OPOI X5,Generator O&M,206891529861.26007,-20.965645635109897
+MO OPOI X5,Over Generation Penalty,0.0,0.0
+MO OPOI X5,RPS Noncompliance,0.0,0.0
+MO OPOI X5,Under Generation Penalty,0.0,0.0
+MO X5,Demand Flexibility,86098037.57693855,-78.80156485828735
+MO X5,Generator O&M,208772459481.9013,-20.2471142468367
+MO X5,Over Generation Penalty,0.0,0.0
+MO X5,RPS Noncompliance,0.0,0.0
+MO X5,Under Generation Penalty,0.0,0.0
+SO,Demand Flexibility,406152798.5503112,0.0
+SO,Generator O&M,261774175956.5366,0.0
+SO,Over Generation Penalty,0.0,0.0
+SO,RPS Noncompliance,0.0,0.0
+SO,Under Generation Penalty,0.0,0.0
+SO X5,Demand Flexibility,428013666.47552013,5.382424546436053
+SO X5,Generator O&M,260853721911.35254,-0.3516214087278335
+SO X5,Over Generation Penalty,0.0,0.0
+SO X5,RPS Noncompliance,0.0,0.0
+SO X5,Under Generation Penalty,0.0,0.0

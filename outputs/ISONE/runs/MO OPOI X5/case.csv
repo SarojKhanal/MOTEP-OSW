@@ -1,0 +1,54 @@
+Index,Description,Choices,Default Value,MO OPOI X5
+datadir,"Input Data Directory Path, ending with /","e.g., inputs/ISONE8busTS_N5/",inputs/ISONE8busTS_osw1_17_N5X5,inputs/ISONE8busTS_osw6_51_N5X5
+MIPGap,MIP gap,"[0, 1]",0.0001,0.0001
+ObjScale,"Objective term scaling factor (If 1, check warning or use solver provided scaling)","(0, Inf)",1.00E-03,1.00E-03
+GSw_AnnualResolution,Resolution of model (annual versus epcoh),0; 1,0,0
+GSw_RPS,Turn ON RPS constraint,0; 1,1,1
+GSw_MultiObj,Turn ON MultiObjective formulation (Cost + AQ + EM),0; 1,1,1
+GSw_Emission,Turn ON Emission formulations,0; 1,1,1
+P_CO2,Price of CO2 emissions per ton,"[0, Inf)",51,51
+GSw_AirQuality,Turn ON Air Quality formulations,0; 1,1,1
+k_scale_AQ,Multiplier of AQ damages,"[0, Inf)",1,1
+GSw_DemandFlexibility,Turn ON Flexible Demand,0; 1,1,1
+alpha_flex,Flexible fraction of total load (at least 2% minimum needed for ISONE8bus data),"[0, 1]",0.1,0.1
+GSw_Battery,Turn ON Battery builds,0; 1,1,1
+GSw_BatteryOSW,Turn ON Battery builds for OSW nodes (only ON when GSw_Battery = 1),0; 1,0,0
+eff_charging,Charging efficiency ,"[0, 1]",0.86,0.86
+eff_discharging,Discharging efficiency,"[0, 1]",0.86,0.86
+k_cal,Degradation factor due to calendar aging,"[0, 1]",0.03,0.03
+k_cycle,Degradation factor due to cycling,"[0, 1]",0.03,0.03
+battery_size_hr,Battery Size in Hour; allow more sizes?,"{2, 4, 6, . . .}",4,4
+GSw_OSW,Turn ON offshore (OSW) transmission expansion,0; 1,1,1
+n_lines_existing,Total number of existing lines,"{1, 2, 3, . . .}",12,12
+t_num,Time interval each representative days,"[1, Inf)",24,24
+GSw_WindPTC,Turn ON Wind PTC (!TODO: Existing issue: negative operations cost),0; 1,0,0
+GSw_PVITC,Turn ON Solar PV ITC,0; 1,0,0
+GSw_ExogenousRetirements,Turn ON Exogenous Retirements of Thermal Units,0; 1,1,1
+k_scale_OnshoreLineCost,Multiplier of Onshore Transmission Line ($/mile) cost,"(0, Inf)",1,1
+GSw_RPSNC,Allow RPS non-compliance penalties ,0; 1,0,0
+RPSNC,"Noncompliance penalty $100/MWh, https://www.nrel.gov/docs/fy19osti/72798.pdf p.9","(0, Inf)",100,100
+GSw_FullUC,"Allow full unit commitment, i.e., ",0; 1,1,1
+VoLL,Value of lost load or undergeneration penalty,"(0, Inf)",5000,5000
+VoWS,Spillage penalty,"(0, Inf)",0,0
+VoOSWS,Offshore spillage penalty,"(0, Inf)",0,0
+r,Discount rate,"[0, 1]",0.05,0.05
+delta_t,Spinning reserve response time (hr),"(0, Inf)",0.166666667,0.166666667
+LT,"Transmission line's life time (years)","{1, 2, 3, . . .}",30,30
+GT,"New generator's lifetime (years), vary this by years?","{1, 2, 3, . . .}",30,30
+ST,Battery storage's lifetime,"{1, 2, 3, . . .}",30,30
+n_buses_existing,Existing number of buses before expansion,"{1, 2, 3, . . .}",8,8
+Y,"Planning horizon, total count of years","{1, 2, 3, . . .}",20,20
+Y_start,"Start year in the model, year","e.g., 2023",2023,2023
+e_num,Number of representative days (scenarios),"{1, 2, 3, . . .}",5,5
+GSw_ExtremeScenarios,Turn ON Extreme Formulations without Regrets,0; 1,0,1
+e_numx,Number of extreme scenarios,"{1, 2, 3, . . .}",5,5
+VoLLX,Value of lost load or undergeneration penalty,"(0, Inf)",5000,5000
+alpha_E,fraction of total weight of extreme days," -1; (0, Inf)",-1,-1
+GSw_MultiObjRegrets,Turn ON MultiObjective Regret Formulations,0; 1,0,0
+GSw_MultiObjRegretsExternalities,Turn ON Externalities Regret Formulations after GSw_MultiObjRegrets ON,0; 1,1,1
+GSw_MultiObjRegretsExtreme,Turn ON Extreme Regret Formulations after GSw_MultiObjRegrets ON,0; 1,1,1
+GSw_MultiObjRegretsEM,Turn ON EM Regret Formulations after GSw_MultiObjRegrets ON,0; 1,1,1
+GSw_MultiObjRegretsAQ,Turn ON AQ Regret Formulations after GSw_MultiObjRegrets ON,0; 1,1,1
+GSw_CVaR,Turn ON CVaR,0; 1,0,0
+eta_CVaR,weighting parameter for CVaR,"[0, 1]",1,1
+alpha_CVaR,confidence interval for CVaR,"[0, 1]",0.95,0.95
